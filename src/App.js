@@ -16,7 +16,7 @@ function App() {
     <div className="app">
       {todos.map(todos => {
         return (
-          <div className={`content ${todos.completed ? 'selected' : ''}`}>
+          <div className={`content ${todos.completed ? 'decoration' : ''}`}>
             <table border='1'>
               {todos.title}
             </table>
